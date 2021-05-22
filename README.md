@@ -1,7 +1,5 @@
-# title(){
-		
-		return this.options.title || this.options.name;
-	}
+This is the Chrome extension that I created as part of the Scrimba Front End Developer Path. 
+
 
 ## Supporting Scrimba
 
