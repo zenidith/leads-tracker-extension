@@ -1,14 +1,18 @@
-let myLeads = ["www.somafm.com", "www.google.com", "www.blackcoffee.com"]
+let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 let ulEl = document.getElementById("ul-el")
 
-console.log(ulEl)
-
 inputBtn.addEventListener('click', function() {
     myLeads.push(inputEl.value)
+    renderLeads()
 })
 
-for (let i = 0; i < myLeads.length; i++) {
-    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li>" + myLeads[i] + "</li>"
+    }
+    ulEl.innerHTML = listItems
 }
