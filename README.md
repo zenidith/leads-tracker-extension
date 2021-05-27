@@ -4,7 +4,7 @@ The Leads Tracker Chrome Extension is essentially a small html/css/js file which
 
 ![](/screenshots/1.png)
 
-After progressing throught the project, I did some extra commits and 'updated' the project in chrome://extensions. It can be downloaded and used in your own browswer too, if you wish!
+After progressing throught the project, I did some extra commits and 'updated' the project in chrome://extensions. It can be downloaded and used in your own browser too, if you wish! You just need to upload it to your own chrome://extensions page yourself then it should appear in the top with all of your other Chrome extensions. 
 
 ![](/screenshots/2.png)
 
