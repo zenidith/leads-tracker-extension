@@ -12,4 +12,4 @@ Thank you so much to Scrimba for teaching me so much JavaScript and also showing
 
 ![](/screenshots/3.png)
 
-#**Happy Coding!**
+**#Happy Coding!**
